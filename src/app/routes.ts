@@ -33,6 +33,7 @@ import { Attendees } from './pages/organizer/Attendees';
 import { Payouts } from './pages/organizer/Payouts';
 import { Settings } from './pages/organizer/Settings';
 import { SmartCodes } from './pages/organizer/SmartCodes';
+import { QRScanner } from './pages/organizer/QRScanner';
 
 // Admin Dashboard (internal platform)
 import { AdminDashboard } from './pages/admin/AdminDashboard';
@@ -89,6 +90,7 @@ export const router = createBrowserRouter([
       { path: '/organizer/attendees', Component: Attendees },
       { path: '/organizer/payouts', Component: Payouts },
       { path: '/organizer/tax', Component: Payouts },
+      { path: '/organizer/scanner', Component: QRScanner },
       { path: '/organizer/integrations', Component: Settings },
       { path: '/organizer/smartcodes', Component: SmartCodes },
       { path: '/organizer/settings', Component: Settings },

@@ -18,28 +18,28 @@ import {
    ═══════════════════════════════════════════════════════════════ */
 
 const revenueData = [
-  { month: 'Jan', revenue: 12450, tickets: 180 },
-  { month: 'Feb', revenue: 18200, tickets: 245 },
-  { month: 'Mar', revenue: 31600, tickets: 420 },
-  { month: 'Apr', revenue: 24800, tickets: 310 },
-  { month: 'May', revenue: 38500, tickets: 495 },
-  { month: 'Jun', revenue: 45200, tickets: 580 },
-  { month: 'Jul', revenue: 52100, tickets: 670 },
-  { month: 'Aug', revenue: 47300, tickets: 610 },
+  { id: 'rev-jan', month: 'Jan', revenue: 12450, tickets: 180 },
+  { id: 'rev-feb', month: 'Feb', revenue: 18200, tickets: 245 },
+  { id: 'rev-mar', month: 'Mar', revenue: 31600, tickets: 420 },
+  { id: 'rev-apr', month: 'Apr', revenue: 24800, tickets: 310 },
+  { id: 'rev-may', month: 'May', revenue: 38500, tickets: 495 },
+  { id: 'rev-jun', month: 'Jun', revenue: 45200, tickets: 580 },
+  { id: 'rev-jul', month: 'Jul', revenue: 52100, tickets: 670 },
+  { id: 'rev-aug', month: 'Aug', revenue: 47300, tickets: 610 },
 ];
 
 const dailySales = [
-  { day: 'Mon', sales: 2400 }, { day: 'Tue', sales: 3200 },
-  { day: 'Wed', sales: 4100 }, { day: 'Thu', sales: 3800 },
-  { day: 'Fri', sales: 5200 }, { day: 'Sat', sales: 6800 },
-  { day: 'Sun', sales: 5400 },
+  { id: 'mon', day: 'Mon', sales: 2400 }, { id: 'tue', day: 'Tue', sales: 3200 },
+  { id: 'wed', day: 'Wed', sales: 4100 }, { id: 'thu', day: 'Thu', sales: 3800 },
+  { id: 'fri', day: 'Fri', sales: 5200 }, { id: 'sat', day: 'Sat', sales: 6800 },
+  { id: 'sun', day: 'Sun', sales: 5400 },
 ];
 
 const trafficSources = [
-  { name: 'Direct', value: 42, color: '#3B82F6' },
-  { name: 'Social', value: 28, color: '#8B5CF6' },
-  { name: 'Search', value: 18, color: '#06B6D4' },
-  { name: 'Referral', value: 12, color: '#F59E0B' },
+  { id: 'direct', name: 'Direct', value: 42, color: '#3B82F6' },
+  { id: 'social', name: 'Social', value: 28, color: '#8B5CF6' },
+  { id: 'search', name: 'Search', value: 18, color: '#06B6D4' },
+  { id: 'referral', name: 'Referral', value: 12, color: '#F59E0B' },
 ];
 
 const recentOrders = [

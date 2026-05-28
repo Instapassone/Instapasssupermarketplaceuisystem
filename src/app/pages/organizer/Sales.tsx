@@ -3,12 +3,12 @@ import { Card } from '../../components/Card';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const salesData = [
-  { month: 'Jan', sales: 12450 },
-  { month: 'Feb', sales: 18200 },
-  { month: 'Mar', sales: 23100 },
-  { month: 'Apr', sales: 19800 },
-  { month: 'May', sales: 28500 },
-  { month: 'Jun', sales: 35200 },
+  { id: 'jan', month: 'Jan', sales: 12450 },
+  { id: 'feb', month: 'Feb', sales: 18200 },
+  { id: 'mar', month: 'Mar', sales: 23100 },
+  { id: 'apr', month: 'Apr', sales: 19800 },
+  { id: 'may', month: 'May', sales: 28500 },
+  { id: 'jun', month: 'Jun', sales: 35200 },
 ];
 
 export function Sales() {

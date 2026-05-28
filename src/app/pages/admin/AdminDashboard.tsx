@@ -11,29 +11,29 @@ import {
 
 /* ─── Mock Data ─── */
 const orderChartData = [
-  { month: 'Jan', orders: 0.2 }, { month: 'Feb', orders: 0.1 },
-  { month: 'Mar', orders: 0.3 }, { month: 'Apr', orders: 0.4 },
-  { month: 'May', orders: 0.5 }, { month: 'Jun', orders: 0.3 },
-  { month: 'Jul', orders: 0.6 }, { month: 'Aug', orders: 0.5 },
-  { month: 'Sep', orders: 0.8 }, { month: 'Oct', orders: 0.9 },
-  { month: 'Nov', orders: 0.7 }, { month: 'Dec', orders: 1.0 },
+  { id: 1, month: 'Jan', orders: 0.2 }, { id: 2, month: 'Feb', orders: 0.1 },
+  { id: 3, month: 'Mar', orders: 0.3 }, { id: 4, month: 'Apr', orders: 0.4 },
+  { id: 5, month: 'May', orders: 0.5 }, { id: 6, month: 'Jun', orders: 0.3 },
+  { id: 7, month: 'Jul', orders: 0.6 }, { id: 8, month: 'Aug', orders: 0.5 },
+  { id: 9, month: 'Sep', orders: 0.8 }, { id: 10, month: 'Oct', orders: 0.9 },
+  { id: 11, month: 'Nov', orders: 0.7 }, { id: 12, month: 'Dec', orders: 1.0 },
 ];
 
 const paymentChartData = [
-  { month: 'Jan', amount: 0.1 }, { month: 'Feb', amount: 0.2 },
-  { month: 'Mar', amount: 0.3 }, { month: 'Apr', amount: 0.4 },
-  { month: 'May', amount: 0.5 }, { month: 'Jun', amount: 0.6 },
-  { month: 'Jul', amount: 0.7 }, { month: 'Aug', amount: 0.8 },
-  { month: 'Sep', amount: 0.9 }, { month: 'Oct', amount: 0.8 },
-  { month: 'Nov', amount: 0.7 }, { month: 'Dec', amount: 1.0 },
+  { id: 1, month: 'Jan', amount: 0.1 }, { id: 2, month: 'Feb', amount: 0.2 },
+  { id: 3, month: 'Mar', amount: 0.3 }, { id: 4, month: 'Apr', amount: 0.4 },
+  { id: 5, month: 'May', amount: 0.5 }, { id: 6, month: 'Jun', amount: 0.6 },
+  { id: 7, month: 'Jul', amount: 0.7 }, { id: 8, month: 'Aug', amount: 0.8 },
+  { id: 9, month: 'Sep', amount: 0.9 }, { id: 10, month: 'Oct', amount: 0.8 },
+  { id: 11, month: 'Nov', amount: 0.7 }, { id: 12, month: 'Dec', amount: 1.0 },
 ];
 
 const newUsers = [
-  { id: 1, name: 'ubaid', email: 'ubaidwoleed1@test.com', phone: '03243132723', role: 'admin', date: '2025-01-22', color: '#E52324' },
-  { id: 2, name: 'ubaid', email: 'ubaidwoleed1@test.com', phone: '03243132723', role: 'admin', date: '2025-01-22', color: '#E52324' },
-  { id: 3, name: 'ubaid', email: 'uboid.woleed1@gmail.com', phone: '03243132723', role: 'admin', date: '2025-01-27', color: '#3B82F6' },
-  { id: 4, name: 'Muhammad', email: 'm.adil060616@gmail.com', phone: '03133860553', role: 'admin', date: '2025-01-26', color: '#8B5CF6' },
-  { id: 5, name: 'Gillean', email: 'alisonumor793@gmail.com', phone: '9999999', role: 'vboth', date: '2025-01-13', color: '#10B981' },
+  { id: 1, name: 'Ubaid', email: 'ubaidwoleed1@test.com', phone: '03243132723', role: 'admin', date: '2025-01-22', color: '#E52324' },
+  { id: 2, name: 'Sarah Chen', email: 'sarah.chen@test.com', phone: '03243132724', role: 'admin', date: '2025-01-23', color: '#F59E0B' },
+  { id: 3, name: 'Ubaid Woleed', email: 'ubaid.woleed1@gmail.com', phone: '03243132725', role: 'admin', date: '2025-01-27', color: '#3B82F6' },
+  { id: 4, name: 'Muhammad Adil', email: 'm.adil060616@gmail.com', phone: '03133860553', role: 'admin', date: '2025-01-26', color: '#8B5CF6' },
+  { id: 5, name: 'Gillean Alison', email: 'alisonumor793@gmail.com', phone: '9999999', role: 'vboth', date: '2025-01-13', color: '#10B981' },
 ];
 
 const newOrders = [

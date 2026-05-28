@@ -48,7 +48,7 @@ export function OrganizerSidebar() {
 
   return (
     <aside
-      className="fixed left-0 top-0 h-screen w-[260px] bg-[#060D1B] border-r border-[#1E293B]/60 flex flex-col z-40"
+      className="hidden lg:flex fixed left-0 top-0 h-screen w-[260px] bg-[#060D1B] border-r border-[#1E293B]/60 flex-col z-40"
       style={{ fontFamily: "'Outfit', 'Inter', sans-serif" }}
     >
       {/* Header */}

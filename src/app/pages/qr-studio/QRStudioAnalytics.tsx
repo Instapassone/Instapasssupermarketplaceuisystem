@@ -6,17 +6,17 @@ import {
 } from 'recharts';
 
 const scanData = [
-  { day: 'Mon', scans: 42, name: 'Mon' }, { day: 'Tue', scans: 58, name: 'Tue' },
-  { day: 'Wed', scans: 35, name: 'Wed' }, { day: 'Thu', scans: 71, name: 'Thu' },
-  { day: 'Fri', scans: 89, name: 'Fri' }, { day: 'Sat', scans: 120, name: 'Sat' },
-  { day: 'Sun', scans: 95, name: 'Sun' },
+  { id: 'mon', day: 'Mon', scans: 42, name: 'Mon' }, { id: 'tue', day: 'Tue', scans: 58, name: 'Tue' },
+  { id: 'wed', day: 'Wed', scans: 35, name: 'Wed' }, { id: 'thu', day: 'Thu', scans: 71, name: 'Thu' },
+  { id: 'fri', day: 'Fri', scans: 89, name: 'Fri' }, { id: 'sat', day: 'Sat', scans: 120, name: 'Sat' },
+  { id: 'sun', day: 'Sun', scans: 95, name: 'Sun' },
 ];
 
 const deviceData = [
-  { name: 'iPhone', value: 45, color: '#E52324' },
-  { name: 'Android', value: 38, color: '#FF4444' },
-  { name: 'Desktop', value: 12, color: '#991B1B' },
-  { name: 'Tablet', value: 5, color: '#FCA5A5' },
+  { id: 'iphone', name: 'iPhone', value: 45, color: '#E52324' },
+  { id: 'android', name: 'Android', value: 38, color: '#FF4444' },
+  { id: 'desktop', name: 'Desktop', value: 12, color: '#991B1B' },
+  { id: 'tablet', name: 'Tablet', value: 5, color: '#FCA5A5' },
 ];
 
 const topLocations = [
